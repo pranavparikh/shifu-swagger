@@ -1,0 +1,24 @@
+{
+  "name": "shifu-swagger",
+  "version": "1.0.0",
+  "description": "Module for generating shifu mock routes based on a swagger 2.0 description file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- --recursive -t 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/TestArmada/shifu-swagger.git"
+  },
+  "author": "Himanshu Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TestArmada/shifu-swagger/issues"
+  },
+  "homepage": "https://github.com/TestArmada/shifu-swagger#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.0.0"
+  }
+}
